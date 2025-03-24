@@ -256,7 +256,7 @@
 127.0.0.1 m1.ad.10010.com
 127.0.0.1 smartad.10010.com
 127.0.0.1 ad.admin.10010.com
-127.0.0.1 appupdate.189.cn  #中国电信更新
+#127.0.0.1 appupdate.189.cn  #中国电信更新
 
 #——————影音•娱乐类——————
 #网易云音乐
@@ -270,7 +270,16 @@
 127.0.0.1 ad.tencentmusic.com
 127.0.0.1 adstats.tencentmusic.com
 127.0.0.1 us.l.qq.com
-
+#MIUI
+127.0.0.1 analytics.miui.com
+127.0.0.1 analytics.db.miui.com
+127.0.0.1 tracking.india.miui.com
+127.0.0.1 sa.api.intl.miui.com
+127.0.0.1 tracking.intl.miui.com
+127.0.0.1 tracking.rus.miui.com
+127.0.0.1 logupdate.avlyun.sec.miui.com
+127.0.0.1 tracking.miui.com
+127.0.0.1 fcanr.tracking.miui.com
 #酷我音乐（去开屏广告①②缺一不可，①会误伤主页的主banner轮播图，③是主页插入的广告如拼多多广告）
 127.0.0.1 kwimg3.kuwo.cn
 127.0.0.1 httpdns.kg.qq.com
@@ -1332,9 +1341,6 @@
 
 127.0.0.1 webcast-open.douyin.com
 127.0.0.1 webcast5-open-lf.douyin.com
-127.0.0.1 p3.douyinpic.com
-
-127.0.0.1 p26.douyinpic.com
 127.0.0.1 p3-webcast.douyinpic.com
 127.0.0.1 p6-webcast.douyinpic.com
 127.0.0.1 p9-webcast.douyinpic.com
@@ -2167,7 +2173,89 @@
 127.0.0.1 c-w-s.applk.cn
 127.0.0.1 ps-w.applk.cn
 127.0.0.1 s-w.applk.cn
+#小米广告
+127.0.0.1 ad.mi.com
+127.0.0.1 ad.xiaomi.com
+127.0.0.1 ad1.xiaomi.com
+127.0.0.1 a.stat.xiaomi.com
+127.0.0.1 api.ad.xiaomi.com
+127.0.0.1 cdn.ad.xiaomi.com
+127.0.0.1 diagnosis.ad.xiaomi.com
+127.0.0.1 e.ad.xiaomi.com
+127.0.0.1 log.ad.xiaomi.com
+127.0.0.1 track.ad.xiaomi.com
+127.0.0.1 m.track.ad.xiaomi.com
+127.0.0.1 zeus.ad.xiaomi.com
+127.0.0.1 sdkconfig.ad.india.xiaomi.com
+127.0.0.1 api.ad.intl.xiaomi.com
+127.0.0.1 diagnosis.ad.intl.xiaomi.com
+127.0.0.1 sdkconfig.ad.intl.xiaomi.com
+127.0.0.1 zeus.ad.intl.xiaomi.com
+127.0.0.1 ximad.com
+127.0.0.1 mjp-analytics.ximad.com
+127.0.0.1 opt.ximad.com
+127.0.0.1 new.api.ad.xiaomi.com
+127.0.0.1 sdkconfig.ad.xiaomi.com
+127.0.0.1 test.ad.xiaomi.com
+127.0.0.1 test.e.ad.xiaomi.com
+127.0.0.1 test.new.api.ad.xiaomi.com
 
+#小米视频
+127.0.0.1 tat.pandora.xiaomi.com
+127.0.0.1 stat.pandora.xiaomi.com
+127.0.0.1 upgrade.mishop.pandora.xiaomi.com
+127.0.0.1 mishop.pandora.xiaomi.com
+127.0.0.1 dvb.pandora.xiaomi.com
+127.0.0.1 de.pandora.xiaomi.com
+127.0.0.1 jellyfish.pandora.xiaomi.com
+127.0.0.1 gallery.pandora.xiaomi.com
+127.0.0.1 bss.pandora.xiaomi.com
+127.0.0.1 appstore.cdn.pandora.xiaomi.com
+127.0.0.1 appstore.pandora.xiaomi.com
+127.0.0.1 b.netcheck.gallery.pandora.xiaomi.com
+127.0.0.1 broker.mqtt.pandora.xiaomi.com
+127.0.0.1 milink.pandora.xiaomi.com
+127.0.0.1 misc.pandora.xiaomi.com
+127.0.0.1 pandora.mi.com
+127.0.0.1 redirect.pandora.xiaomi.com
+127.0.0.1 tv.weixin.pandora.xiaomi.com
+127.0.0.1 tvmanager.pandora.xiaomi.com
+127.0.0.1 tvmgr.pandora.xiaomi.com
+127.0.0.1 assistant.pandora.xiaomi.com
+127.0.0.1 starfish.pandora.xiaomi.com
+127.0.0.1 api.jr.mi.com  #小米钱包的金融广告
+#禁用后可能会导致小米浏览器无法下载APK，因为有垃圾推广安装
+127.0.0.1 idm.api.io.mi.com
+#小米rom下载加速（备用IP香港163.181.35.44，182.239.104.89，台北47.246.36.217，47.246.37.220）
+47.246.37.220 bigota.d.miui.com
+47.246.37.220 hugeota.d.miui.com
+#小米浏览器 热点下滑等
+127.0.0.1 o2o.api.xiaomi.com
+127.0.0.1 api.browser.miui.com
+127.0.0.1 ssl-cdn.static.browser.mi-img.com
+127.0.0.1 security.browser.miui.com
+127.0.0.1 r.browser.miui.com
+127.0.0.1 hd.browser.miui.com
+127.0.0.1 c3-cache.browser.miui.com
+127.0.0.1 api-ipv4.browser.miui.com
+#这应该是安装验证，建议屏蔽
+127.0.0.1 api-installer.pt.xiaomi.com
+127.0.0.1 preview-api.installer.xiaomi.com
+127.0.0.1 test-api-installer.pt.xiaomi.com
+#安全相关
+127.0.0.1 adv.sec.intl.miui.com
+127.0.0.1 api.miui.security.xiaomi.com
+127.0.0.1 authbe.sec.intl.miui.com
+127.0.0.1 data.sec.intl.miui.com
+127.0.0.1 embed.sec.miui.com
+127.0.0.1 tz.sec.xiaomi.com
+#浏览器的敏感站点屏蔽数据？
+127.0.0.1 security.browser.miui.com
+#鬼知道啥东西？隐私保护需要联网那还叫隐私保护？
+127.0.0.1 privacy.api.intl.miui.com
+#软件安装验证相关
+127.0.0.1 api.installer.xiaomi.com
+127.0.0.1 api-middle.transfer.sec.miui.com
 #极光推送
 127.0.0.1 easytomessage.com
 127.0.0.1 action.service.user.jiguang.cn
@@ -3863,4 +3951,75 @@
 127.0.0.1 ua.supersonicads.com
 127.0.0.1 www.supersonicads.com
 127.0.0.1 outcome.supersonicads.com
+
+#GitHub加速
+20.27.177.113 github.com
+185.199.110.133 github.io
+20.27.177.116 api.github.com
+20.205.243.166 gist.github.com
+20.43.185.14 github.dev
+140.82.112.18 github.community
+140.82.113.21 collector.github.com
+140.82.113.26 alive.github.com
+140.82.112.25 live.github.com
+185.199.110.154 github.githubassets.com
+185.199.110.153 githubstatus.com
+185.199.110.133 raw.github.com
+185.199.110.133 raw.githubusercontent.com
+185.199.110.133 objects.githubusercontent.com
+185.199.110.133 media.githubusercontent.com
+185.199.110.133 cloud.githubusercontent.com
+185.199.110.133 desktop.githubusercontent.com
+ 185.199.110.133 user-images.githubusercontent.com
+185.199.110.133 avatars.githubusercontent.com
+185.199.110.133 avatars0.githubusercontent.com
+185.199.110.133 avatars1.githubusercontent.com
+185.199.110.133 avatars2.githubusercontent.com
+185.199.110.133 avatars3.githubusercontent.com
+185.199.110.133 avatars4.githubusercontent.com
+185.199.110.133 avatars5.githubusercontent.com
+#GitHub备用
+#140.82.116.3 | 140.82.112.4 github.com
+#20.205.243.166 新加坡微软云 广电偶失灵
+#20.27.177.113 日本 微软云 广电偶尔失灵
+#api.github.com
+#20.205.243.168 新加坡 微软云 广电不通
+#20.27.177.116 日本 微软云
+
+#Steam加速
+23.218.130.190 steamcommunity.com
+104.95.232.120 www.steamcommunity.com
+23.33.180.80 store.steampowered.com
+23.218.130.190 api.steampowered.com
+23.218.130.190 help.steampowered.com
+23.53.11.237 store.akamai.steamstatic.com
+23.215.0.136 steamcdn-a.akamaihd.net
+23.53.11.246 cdn.akamai.steamstatic.com
+104.95.232.120 steam-chat.com
+23.53.11.248 community.akamai.steamstatic.com
+
+#SpeedTest加速（又被墙放出来了，备用）
+#151.101.78.219 www.speedtest.net
+#151.101.78.219 mapi.speedtest.net
+#151.101.110.219 user-api.speedtest.net
+#151.101.78.219 consumer-downdetector-api.speedtest.net
+
+#Mega加速(app only)
+66.203.125.15 g.api.mega.co.nz
+103.230.123.190 mega.nz
+66.203.124.31 mega.co.nz
+
+#Pinterest加速
+72.247.96.248 pinterest.com
+72.247.96.248 www.pinterest.com
+72.247.96.248 api.pinterest.com
+72.247.96.248 trk.pinterest.com
+72.247.96.248 i.pinimg.com
+72.247.96.248 v1.pinimg.com
+
+#喵云
+104.21.64.1 proxy-s1.miaoyun.cloud
+104.21.64.1 proxy-s2.miaoyun.cloud
+104.21.64.1 www.miaoyun.cloud
+
 
