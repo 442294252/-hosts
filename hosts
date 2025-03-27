@@ -460,6 +460,8 @@
 127.0.0.1 post-1254361794.file.myqcloud.com  #埋堆堆(看TVB的)开屏
 127.0.0.1 rtbapi.douyucdn.cn  #斗鱼开屏配置文件？非图，但禁了就不展示广告。
 
+127.0.0.1 ad.12306.cn  #12306开屏
+
 #来自GitHub，24.03加入测试
 127.0.0.1 wcp.taobao.com
 127.0.0.1 netapm.music.163.com
