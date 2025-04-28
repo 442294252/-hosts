@@ -3987,11 +3987,6 @@
 104.95.232.120 steam-chat.com
 23.53.11.248 community.akamai.steamstatic.com
 
-#SpeedTest加速（又被墙放出来了，备用）
-#151.101.78.219 www.speedtest.net
-#151.101.78.219 mapi.speedtest.net
-#151.101.110.219 user-api.speedtest.net
-#151.101.78.219 consumer-downdetector-api.speedtest.net
 
 #Mega加速(app only)
 66.203.125.15 g.api.mega.co.nz
@@ -4006,9 +4001,6 @@
 72.247.96.248 i.pinimg.com
 72.247.96.248 v1.pinimg.com
 
-#喵云
-104.21.64.1 proxy-s1.miaoyun.cloud
-104.21.64.1 proxy-s2.miaoyun.cloud
-104.21.64.1 www.miaoyun.cloud
+
 
 
