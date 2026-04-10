@@ -4001,6 +4001,28 @@
 72.247.96.248 i.pinimg.com
 72.247.96.248 v1.pinimg.com
 
+#soop直播广告
+0.0.0.0 ad.sooplive.co.kr
+0.0.0.0 ads.sooplive.co.kr
+0.0.0.0 static.ad.sooplive.co.kr
+0.0.0.0 api.ad.sooplive.co.kr
+0.0.0.0 adx.sooplive.co.kr
+0.0.0.0 ssp.sooplive.co.kr
+0.0.0.0 gfpsdk.naver.com
+0.0.0.0 api.gfpsdk.naver.com
+0.0.0.0 ad.naver.com
+0.0.0.0 ads.naver.com
+0.0.0.0 nid.naver.com
+0.0.0.0 ssp.igaworks.com
+0.0.0.0 ad.igaworks.com
+0.0.0.0 api.igaworks.com
+0.0.0.0 adcolony.com
+0.0.0.0 api.adcolony.com
+0.0.0.0 adfit.kakao.com
+0.0.0.0 api.adfit.kakao.com
+0.0.0.0 api2.ms.sooplive.com
+0.0.0.0 media2-ct08.09100796.com
+0.0.0.0 vod-mplayer.sooplive.com
 
 
 
